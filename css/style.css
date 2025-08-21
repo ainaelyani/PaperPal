@@ -1,0 +1,21 @@
+.lines-preview {
+    min-height: 24px;
+}
+
+.lines-preview .line {
+    border-bottom: 1px dashed #bbb;
+    height: 22px;
+}
+
+.question-card {
+    transition: box-shadow .2s ease;
+}
+
+.question-card:hover {
+    box-shadow: 0 10px 24px rgba(0, 0, 0, .08);
+}
+
+.img-preview {
+    max-height: 160px;
+    object-fit: contain;
+}
